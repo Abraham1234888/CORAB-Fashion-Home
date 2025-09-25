@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CORAB Fashion - African Fashion Designs & Custom Clothing</title>
+  <meta name="description" content="CORAB Fashion specializes in unique African fashion designs, custom clothing, and creative style solutions. Discover our services, testimonials, and contact us for your next fashion statement.">
+  <meta name="keywords" content="African fashion, custom clothing, fashion design, CORAB Fashion, unique style, fashion consulting, ready-to-wear, image consulting, Nigeria fashion, creative agency">
+  <meta name="author" content="CORAB Fashion">
+  <link rel="canonical" href="https://yourdomain.com/index.html">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="CORAB Fashion - African Fashion Designs & Custom Clothing">
+  <meta property="og:description" content="Unique African fashion, custom clothing, and creative style solutions. See our services and contact us today!">
+  <meta property="og:image" content="https://yourdomain.com/Assets/flower%20card.webp">
+  <meta property="og:url" content="https://yourdomain.com/index.html">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CORAB Fashion - African Fashion Designs & Custom Clothing">
+  <meta name="twitter:description" content="Unique African fashion, custom clothing, and creative style solutions. See our services and contact us today!">
+  <meta name="twitter:image" content="https://yourdomain.com/Assets/flower%20card.webp">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+      <div class="logo">CORAB Investment</div>
+      <div id="menu-toggle">&#9776;</div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./About.html">About Page</a></li>
+        <li><a href="./Services.html">Our Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="./Products.html">Our Unique Products</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- landing page -->
+  <section class="hero" id="hero">
+    <div class="hero-content fade-in">
+      <h1>CORAB Fashion Expressions!</h1>
+      <p>Crafting innovative African fashion designs</p>
+      <button class="btn">Welcome!</button>
+    </div>
+  </section>
+
+  <section class="intro fade-in">
+    <div class="container">
+      <h2>Welcome to CORAB Fashion</h2>
+      <p>
+        At <b>CORAB Fashion,</b> we are passionate about creating unique and stylish African 
+        fashion designs that celebrate culture and individuality. Our team of talented designers
+         is dedicated to delivering high-quality clothing and accessories that make a statement.
+      </p>
+    </div>
+</section>
+
+<div class="box-intro">
+  <h2>Making Bold and Fabulous Fashion Statement<br>
+  <img src="./Assets/flower card.webp" alt="African fashion flower card - CORAB Fashion" height="400" width="600"></h2>
+</div>
+
+  <!-- Testimonials -->
+<section id="testimonials" class="testimonials fade-in">
+  <div class="container">
+    <h2>What Clients Say</h2>
+    <div class="testimonial-wrapper">
+      <div class="testimonial-track" id="testimonial-track">
+        <div class="testimonial">
+          <blockquote>
+            “This organization has been there for us every time we call for aid and collaboration
+            to mention but a few. We are indeed greatful for this fruitful partnership!”
+            <cite>- Jerry Banton, Startup Founder</cite>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            “CORAB Fashion is my-go-to place when my husband needs a change of fashion style. 
+            Because they always deliver beyond my expectations and on time.
+            .”
+            <cite>- Mary Okilo, Customer</cite>
+          </blockquote>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            “A fantastic fashion ideology. I have been with CORAB Fashion for like 3 years now and I must say they are the best in the business.
+            Their designs are always on point and they really understand my style perfectly.
+            .”
+            <cite>Alari Takua, Customer</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+   
+
+
+
+ 
+
+
+  <!-- Contact Form-->
+  <section id="contact" class="contact fade-in">
+    <div class="container">
+      <h2>You Can Reach Us Now</h2>
+        <form id="contact-form" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+  </section>
+
+  <!-- Footer with social media links -->
+  <footer>
+  <div class="footer">
+  
+    <a href="https://www.facebook.com/biobaragha.john"  target="_blank">
+  <img src="./Assets/facebook logo.png" alt="Facebook logo - CORAB Fashion" height="40" width="40"></a>
+
+
+   <a href="https://www.Instagram.com/Biobaragha John/" target="_blank"> 
+  <img src="./Assets/Instagram logo.jpg" alt="Instagram logo - CORAB Fashion" height="40" width="40"></a>
+
+
+    <a href="https://twitter.com/Biobaragha" target="_blank">
+  <img src="./Assets/x-logo.jpg" alt="Twitter/X logo - CORAB Fashion" height="40" width="40"></a>
+
+
+
+    <p>&copy; 2025. CORAB Fashion. All rights reserved.
+  <img class="logo_1" src="./Assets/corab logo_1.jpg" alt="CORAB Fashion logo" height="60" width="60">
+    </p>
+  </div>
+  </footer> 
+
+     <!--Form response to my email using formspree-->
+
+  <script src="./JS/script.js"></script>
+    <script>
+      document.getElementById('contact-form').addEventListener('submit', async function(e) {
+        e.preventDefault();
+        const form = e.target;
+        const data = {
+          name: form.name.value,
+          email: form.email.value,
+          message: form.message.value
+        };
+        const response = await fetch('https://formspree.io/f/mjkowppy', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify(data)
+        });
+        if (response.ok) {
+          alert('Thank you! Your message has been sent.');
+          form.reset();
+        } else {
+          const errorData = await response.json().catch(() => ({}));
+          console.error('Formspree error:', errorData);
+          alert('Oops! There was a problem submitting your form. Check the browser console for details.');
+        }
+      });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+  
