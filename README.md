@@ -41,7 +41,7 @@ Assets/
 - Adjust styles in `styles.css` for your brand colors and fonts.
 
 ## Credits
-Made by CORAB Fashion. Designed and developed Biobaragha John.
+Made by CORAB Fashion. Designed and developed by Biobaragha John.
 
 ---
 
