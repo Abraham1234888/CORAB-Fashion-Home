@@ -45,4 +45,4 @@ Made by CORAB Fashion. Designed and developed by Biobaragha John.
 
 ---
 
-For any questions or support, please contact us via the website contact form.
+For any questions or support, kindly contact us via the website contact form.
