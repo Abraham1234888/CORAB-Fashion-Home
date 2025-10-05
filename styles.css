@@ -312,6 +312,34 @@ html {
   transform: translateX(0);
 }
 
+#Globe{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  gap: 30px;
+}
+
+div1{
+  justify-items: center;
+  display: flexbox;
+  
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 20px;
+  gap: 50px;
+  padding: 3rem;
+  width: 60%;
+  height: auto;
+}
+
+
+
+
+
+
+
 /*
    Responsive
 */
@@ -409,7 +437,7 @@ html {
 }
 
 #box2{
-  border: 2px solid red;
+
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   background-color: #555;
   max-width: 80%;
