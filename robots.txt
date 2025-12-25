@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap - replace with your site domain if different
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Prevent indexing of any staging or private folders (uncomment if needed)
+# Disallow: /private/
