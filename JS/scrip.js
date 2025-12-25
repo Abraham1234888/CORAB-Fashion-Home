@@ -19,12 +19,12 @@ toggle.addEventListener("click", () => {
   }
 });
 
-// Contact form submission
-document.getElementById("contact-form").addEventListener("submit", function(e) {
-  e.preventDefault();
-  alert("Thank you! Your message has been sent.");
-  this.reset();
-});
+// Contact form submission — do not override the main submit handler
+const contactForm = document.getElementById("contact-form");
+if (contactForm) {
+  // Inline script handles the Formspree POST. Keep this as a no-op
+  // to avoid preventing default or clearing the form before submission.
+}
 
 // Scroll animations
 const animatedElements = document.querySelectorAll(".fade-in, .slide-left, .slide-right");
@@ -54,5 +54,4 @@ function showTestimonial() {
 }
 
 setInterval(showTestimonial, 4000); // every 4s
-
 

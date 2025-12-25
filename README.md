@@ -1,6 +1,6 @@
 # CORAB Fashion Web Project
 
-This is a modern, responsive website for CORAB Fashion, a creative agency specializing in African fashion designs, custom clothing, and style consulting.
+This is a modern, responsive website for CORAB Fashion, a creative agency specializing in African fashion Logistics.
 
 ## Features
 - Stylish landing page with hero section
