@@ -21,6 +21,7 @@ body {
   background: var(--light);
   color: #333;
   justify-content: center;
+  justify-items: center;
 }
 
 /* 
@@ -77,7 +78,7 @@ nav {
    landing page Section */
 
   .hero {
-    margin-top: 0px;
+  margin-top: 0px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -133,11 +134,10 @@ section {
 }
 
 .container {
-  justify-content: center;
+  margin-top: 2px;
   justify-items: center;
-  justify-self: center;
   max-width: 1100px;
-  margin: 10px;
+  
   border-image: linear-gradient(to right, var(--primary), var(--secondary)) 1;
   padding: 2rem;
   border-radius: 15px;
